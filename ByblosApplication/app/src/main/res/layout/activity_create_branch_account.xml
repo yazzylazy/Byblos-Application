@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateBranchAccount">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:gravity="center"
+                android:text="Welcome to Byblos!\nPlease Create An Account"
+                android:textSize="30sp"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:id="@+id/newUsername"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:hint="Create a Username"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/newUserEmail"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:hint="Enter a Valid Email"
+                android:inputType="textEmailAddress"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/newUserPassword"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:hint="Create a Password"
+                android:inputType="textPassword"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/newPhoneNumber"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:hint="Enter a Valid Phone Number"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/newAddress"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:hint="Enter a Valid Address"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/newZipCode"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:hint="Enter a Valid ZIP CODE"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/newCity"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:hint="Enter a valid City"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/newProvince"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:hint="Enter a valid Province"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/newCountry"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:hint="Enter a valid Counrty"
+                android:text="" />
+
+            <Button
+                android:id="@+id/CreateAccountBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CREATE ACCOUNT" />
+
+            <Button
+                android:id="@+id/BackButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BACK" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

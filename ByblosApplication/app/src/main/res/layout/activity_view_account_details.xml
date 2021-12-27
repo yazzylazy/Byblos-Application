@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/AccountDets"
+    tools:context=".ViewAccountDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ViewUsername"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:gravity="center_vertical"
+                android:text="Username"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/viewUsernameInput"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/ViewEmail"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:gravity="center_vertical"
+                android:text="Email"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/ViewEmailInput"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/ViewPassword"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:gravity="center_vertical"
+                android:text="Password"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/ViewPasswordInput"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center_vertical"
+                android:inputType="textPassword"
+                android:text=""
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/ViewAddress"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:gravity="center_vertical"
+                android:text="Address"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/ViewAddressInput"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/ViewZIP"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:gravity="center_vertical"
+                android:text="ZIP Code"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/ViewZIPINPUT"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/ViewPhone"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:gravity="center_vertical"
+                android:text="Phone Number"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/ViewPhoneInput"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/ViewCity"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:gravity="center_vertical"
+                android:text="City"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/ViewCityInput"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/ViewProvince"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:gravity="center_vertical"
+                android:text="Province"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/ViewProvinceInput"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/ViewCountry"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:gravity="center_vertical"
+                android:text="Country"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/ViewCountryInput"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/backBtn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="BACK"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

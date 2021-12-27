@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateService">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/serviceName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:hint="Input name of service"
+                    android:text=""
+                    android:textSize="30dp" />
+
+                <Switch
+                    android:id="@+id/carRentalNameSwitch"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Include First and Last Name" />
+
+                <Switch
+                    android:id="@+id/carRentalDOB"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Include Date of Birth" />
+
+                <Switch
+                    android:id="@+id/carRentalAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Include Address" />
+
+                <Switch
+                    android:id="@+id/carRentalEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Include Email" />
+
+                <Switch
+                    android:id="@+id/carRentalLicenseType"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Include License Type" />
+
+                <Switch
+                    android:id="@+id/carRentalCarType"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Include Preferred Car Type" />
+
+                <Switch
+                    android:id="@+id/carRentalPickup"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Include Pickup Date and Time" />
+
+                <Switch
+                    android:id="@+id/carRentalReturn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Include Return Date and Time" />
+
+                <Switch
+                    android:id="@+id/maxKilometers"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:text="Max Number Of Driven Kilometers" />
+
+                <Switch
+                    android:id="@+id/truckArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:text="Area where truck will be driven" />
+
+                <Switch
+                    android:id="@+id/movingStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:text="Moving start location" />
+
+                <Switch
+                    android:id="@+id/movingEnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:text="Moving end location" />
+
+                <Switch
+                    android:id="@+id/numbersMovers"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:text="Numbers of movers" />
+
+                <Switch
+                    android:id="@+id/numberBoxes"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:text="Expected number of boxes" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/editcarRentalTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Hourly Rate" />
+
+                        <EditText
+                            android:id="@+id/carRentalHourlyPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:text=""
+                            android:gravity="center"
+                             />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/carRentalSubmit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@color/black"
+                        android:text="Submit Changes" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
