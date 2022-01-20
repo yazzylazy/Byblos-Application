@@ -18,7 +18,7 @@ Built in collabortaion with [Michael Thompson](https://github.com/mthom242)
 ```
 https://github.com/yazzylazy/Byblos-Application.git
 ```
-Click yes to proceed onto Version Control checkout.
+Click clone to proceed.
 
 4) You should see this in your Gradle Project path:
 
@@ -31,8 +31,14 @@ If you have saved it under some other custom folder, then it should say so corre
 
 ## Running the Repository
 
-You might get the message "Unregistered VS root detected", and you should choose to "Add root". This will allow you to use VCS and its functionalities for the project. The project should now build.
-Create an Android Virtual Device within Android Studio. Select a Pixel2 smartphone as the device to emulate, specifying the device OS as Android 8.1 API 27.
-Launch the virtual device and ensure it loads correctly.
-After the test checks out, run the application. You should see the login screen.
+5) You might get the message "Unregistered VS root detected", and you should choose to "Add root".
+This will allow you to use VCS and its functionalities for the project.
+The project should now build.
+6) Create an Android Virtual Device within Android Studio.
+Select a Pixel2 smartphone as the device to emulate, specifying the device OS as Android 8.1 API 27.
+7) Launch the virtual device and ensure it loads correctly.
+8) After the test checks out, run the application. You should see the login screen.
 
+## Notes
+
+We would like to note that this project focuses more on its functionality on not its design. 
