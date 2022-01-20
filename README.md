@@ -29,7 +29,7 @@ If you have saved it under some other custom folder, then it should say so corre
 ~/AndroidStudioProjects/Byblos-Application
 ```
 
-##Running the Repository
+## Running the Repository
 
 You might get the message "Unregistered VS root detected", and you should choose to "Add root". This will allow you to use VCS and its functionalities for the project. The project should now build.
 Create an Android Virtual Device within Android Studio. Select a Pixel2 smartphone as the device to emulate, specifying the device OS as Android 8.1 API 27.
