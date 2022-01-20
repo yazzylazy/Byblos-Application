@@ -4,7 +4,7 @@ An andoird application which implements some basic functionalities of services o
 ## At A Glance
 Welcome Page                        |  Admin Page                  | Employee Page                              | Customer Page 
 :------------------------------------:|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:
-![](/game_icons/)  |  ![](/game_icons/) | ![](/game_icons/)| ![](/game_icons/)
+![](/game_icons/welcome.png)  |  ![](/game_icons/admin.png) | ![](/game_icons/employee.png)| ![](/game_icons/customer.png)
 
 Built in collabortaion with [Michael Thompson](https://github.com/mthom242)
 
