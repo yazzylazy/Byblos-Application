@@ -24,16 +24,10 @@ Click yes to proceed onto Version Control checkout.
 
 Note: This is assuming that you have saved it inside Android Studio Projects folder.
 If you have saved it under some other custom folder, then it should say so correspondingly.
-```
-~/AndroidStudioProjects/s
-```
-Add "ByblosApplication/app" in order to direct the file to default gradle wrapper:
 
-Recommended way is to click the '...' icon beside the project path, navigating to your Phase 2 folder, clicking on it, and then just choosing GameCentre. 
 ```
-~/AndroidStudioProjects/s/ByblosApplication/app
+~/AndroidStudioProjects/Byblos-Application
 ```
-Click Finish to proceed onto the next screen.
 
 ##Running the Repository
 
