@@ -6,7 +6,7 @@ Welcome Page                        |  Admin Page                  | Employee Pa
 :------------------------------------:|:-----------------------------------:|:-----------------------------------:|:-----------------------------------:
 ![](/game_icons/welcome.png)  |  ![](/game_icons/admin.png) | ![](/game_icons/employee.png)| ![](/game_icons/customer.png)
 
-Built in collabortaion with [Michael Thompson](https://github.com/mthom242) and [Graydon Berneche](https://github.com/Gred-git)
+Built in collabortaion with [Michael Thompson](https://github.com/mthom242) [Graydon Berneche](https://github.com/Gred-git) and [Adam Orchard](https://github.com/AdamOrchard1)
 
 ## Getting Started
 
